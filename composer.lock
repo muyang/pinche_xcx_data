@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "877e26ad6417a8a5c9e003f308d875e9",
+    "packages": [
+        {
+            "name": "leancloud/leancloud-sdk",
+            "version": "v0.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leancloud/php-sdk.git",
+                "reference": "a07b2a0e7355e50cef3a150921ebcc4453c63a3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leancloud/php-sdk/zipball/a07b2a0e7355e50cef3a150921ebcc4453c63a3a",
+                "reference": "a07b2a0e7355e50cef3a150921ebcc4453c63a3a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*"
+            },
+            "require-dev": {
+                "apigen/apigen": "^4.1",
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LeanCloud\\": "src/LeanCloud"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Juvenn Woo",
+                    "email": "yun.wu@leancloud.rocks"
+                }
+            ],
+            "description": "LeanCloud PHP SDK",
+            "homepage": "https://github.com/leancloud/php-sdk",
+            "keywords": [
+                "leancloud"
+            ],
+            "time": "2018-03-19T08:25:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
